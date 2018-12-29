@@ -1,4 +1,4 @@
-package src.main.java;
+package org.junior.java8;
 
 import java.util.Arrays;
 import java.util.List;
