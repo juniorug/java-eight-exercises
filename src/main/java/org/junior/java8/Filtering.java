@@ -7,7 +7,9 @@ import java.util.function.Predicate;
 public class Filtering {
 
     public static void filterList(List<String> list, Predicate<String> condition) {
-        list.stream().filter(condition::test).forEach(System.out::println);
+        list.stream()
+        .filter(condition::test)
+        .forEach(System.out::println);
     }
 
     public static void main(String[] args) {
